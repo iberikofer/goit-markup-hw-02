@@ -1,11 +1,11 @@
 :root {
-  --logo-color: #4d5ae5; /*logo*/
-  --logo-color-2: #404bbf; /*logo2*/
-  --first-color: #2e2f42; /*navy blue*/
-  --second-color: #434455; /*slate*/
-  --third-color: #e7e9fc; /*cornflower*/
-  --fourth-color: #f4f4fd; /*cloud*/
-  --fifth-color: #ffffff; /*white*/
+  --logo-color: #4d5ae5;
+  --logo-color-2: #404bbf;
+  --first-color: #2e2f42;
+  --second-color: #434455;
+  --third-color: #e7e9fc;
+  --fourth-color: #f4f4fd;
+  --fifth-color: #ffffff
 }
 
 body {
