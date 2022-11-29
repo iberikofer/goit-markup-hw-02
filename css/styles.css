@@ -1,0 +1,206 @@
+:root {
+  --logo-color: #4d5ae5; /*logo*/
+  --logo-color-2: #404bbf; /*logo2*/
+  --first-color: #2e2f42; /*navy blue*/
+  --second-color: #434455; /*slate*/
+  --third-color: #e7e9fc; /*cornflower*/
+  --fourth-color: #f4f4fd; /*cloud*/
+  --fifth-color: #ffffff; /*white*/
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: var(--first-color);
+  background-color: var(--fifth-color);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.logo {
+  color: var(--first-color);
+  font-family: 'Raleway';
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.logo-colored {
+  color: var(--logo-color);
+  font-family: 'Raleway';
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.logo-footer {
+  color: var(--fourth-color);
+  font-family: 'Raleway';
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+.menu {
+  color: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.menu:hover {
+  color: var(--second-color);
+}
+
+.menu:active,
+.menu:focus {
+  color: var(--logo-color);
+}
+
+.contact {
+  color: inherit;
+  line-height: 1.5;
+}
+
+.contact:hover {
+  color: var(--second-color);
+}
+
+.contact:focus,
+.contact:active {
+  color: var(--logo-color);
+}
+
+.section-1 {
+  background-color: var(--first-color);
+  color: var(--fifth-color);
+  text-align: center;
+  font-size: 56px;
+}
+
+.section-1 > h1 {
+  line-height: 1;
+}
+
+.main-button {
+  color: var(--fifth-color);
+  background-color: var(--logo-color);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.1;
+  border-radius: 4px;
+  border-width: 0;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 16px 32px 16px 32px;
+}
+
+.main-button:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.main-button:active,
+.main-button:focus {
+  background-color: var(--logo-color-2);
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.feature {
+  line-height: 1.5;
+}
+
+.heading-2 {
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.photo-card {
+  display: inline-block;
+  margin-right: 24px;
+  text-align: center;
+}
+
+.crew {
+  text-align: center;
+  border-width: 0px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.08), 0px 1px 1px rgba(0, 0, 0, 0.16),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.position {
+  line-height: 1.5;
+}
+
+.filter-button {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--logo-color);
+  background-color: var(--fourth-color);
+  border-color: var(--third-color);
+  border: 1px solid var(--third-color);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 16px 8px 16px;
+}
+
+.filter-button:hover {
+  color: var(--fourth-color);
+  background-color: var(--logo-color);
+  border: 1px solid var(--logo-color);
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter-button:active,
+.filter-button:focus {
+  color: var(--third-color);
+  background-color: var(--logo-color-2);
+}
+
+.card {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.card-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.second-card-text {
+  line-height: 1.5;
+  color: var(--second-color);
+}
+
+footer {
+  background-color: var(--first-color);
+}
+
+.footer-text {
+  line-height: 1.5;
+  color: var(--third-color);
+  background-color: var(--first-color);
+}
+
+.hidden {
+  display: none;
+}
