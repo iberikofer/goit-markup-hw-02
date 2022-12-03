@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --logo-color: #4d5ae5;
   --logo-color-2: #404bbf;
@@ -11,7 +17,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  letter-spacing: 0.02em;
   color: var(--first-color);
   background-color: var(--fifth-color);
 }
@@ -35,7 +40,7 @@ button {
 
 .logo {
   color: var(--first-color);
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.33;
@@ -44,7 +49,7 @@ button {
 
 .logo-colored {
   color: var(--logo-color);
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.33;
@@ -53,7 +58,7 @@ button {
 
 .logo-footer {
   color: var(--fourth-color);
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
